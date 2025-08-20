@@ -24,14 +24,14 @@
 import UIKit
 
 @IBDesignable
-class BezierHandleView: UIView {
+public class BezierHandleView: UIView {
 
     @IBInspectable public var dx:CGFloat = 0
     @IBInspectable public var dy:CGFloat = -10
     @IBInspectable public var shape:NSInteger = BezierCurveView.Shape.none.rawValue
     @IBInspectable public var size:CGFloat = 15
 
-    override func draw(_ rect: CGRect) {
+    public override func draw(_ rect: CGRect) {
         // Invisible
     }
 }
