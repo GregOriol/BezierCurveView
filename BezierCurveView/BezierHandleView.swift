@@ -36,7 +36,7 @@ class BezierHandleView: UIView {
     }
 }
 
-extension BezierHandleView: BezierHandleProtocol {
+extension BezierHandleView: @preconcurrency BezierHandleProtocol {
 
     public var controlPoint: CGPoint {
         get {
