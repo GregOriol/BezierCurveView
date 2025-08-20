@@ -23,7 +23,7 @@
 
 import UIKit
 
-protocol BezierHandleProtocol {
+public protocol BezierHandleProtocol {
     var controlPoint: CGPoint { get }
     var anchor: CGPoint { get }
     var terminalShape: BezierCurveView.Shape { get }
